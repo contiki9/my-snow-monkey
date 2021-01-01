@@ -1,0 +1,5 @@
+@import "./theme/variable"; //上書き用の変数管理
+
+@import "../../themes/snow-monkey/src/css/style"; //既存のSnow MonkeyのCSSを呼び直す
+
+@import "./theme/**"; //上書き用のSCSS管理

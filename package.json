@@ -1,13 +1,15 @@
 {
-  "author": "inc2734",
-  "license": "GPL-2.0+",
   "devDependencies": {
-    "rimraf": "^2.6.2"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2"
   },
-  "scripts": {
-    "clean:zip": "rimraf my-snow-monkey.zip",
-    "zip:pack": "rsync -a --exclude='.*' --exclude='node_modules' --exclude='vendor' --exclude='package.json' --exclude='package-lock.json' --exclude='composer.json' --exclude='composer.lock' . my-snow-monkey",
-    "zip:archive": "zip -9 -qmr my-snow-monkey.zip my-snow-monkey",
-    "zip": "npm run clean:zip && npm run zip:pack && npm run zip:archive"
-  }
+  "browserslist": [
+    "last 2 versions",
+    "Explorer 11"
+  ]
 }
