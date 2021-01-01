@@ -31,7 +31,7 @@ My Snow Monkey プラグインディレクトリへの URL
 
 My Snow Monkey プラグインディレクトリへの ファイルパス
 
-### SCSS の Build
+## SCSS の Build
 
 `npm i` を実行（初回のみ）
 
